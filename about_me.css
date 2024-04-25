@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* hader start */
+header{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    background-color: #F0F0F0;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    padding:40px 150px ;
+    font-size: 24px;
+}
+/* nav bar logo and link */
+.nav_bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    word-spacing: 5px;
+}
+.link_nav{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    margin: -3% 50% ;
+    width: max-content;
+    height: 80px;
+    z-index: 3;
+}
+.a_nav{
+    display: flex;
+    align-items: end;
+    padding: 10px 10px 0px 10px;
+    border: none;
+}
+.a_nav:hover{
+    display: flex;
+    width: max-content;
+    height: 80px;
+    background-color: red;
+}
+.active{
+    background-color: red;
+}.nav_cont{
+    display: flex;
+    flex-direction: column;
+   position: relative; 
+   width: 100%;
+   height: 70px;
+   align-items: center;
+}
+.nav_title{
+    display: block;
+    padding: 52px 400px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #F0F0F0;
+    z-index: 2;
+}
+.bxs-quote-left{
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+.img_nav{
+    display: block;
+    z-index: 1;
+    margin-top: -160px;
+}
+.img_position{
+    width: 300px;
+    height: 300px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    background-color: #D45E5E;
+    padding:100px 200px ;
+    gap: 3em;
+    font-size: 1.5em;
+    color: #F0F0F0;
+}
+.main_cont{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+.about_Gerond{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.about_Gerond_two{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.img{
+    background: url(https://s3-alpha-sig.figma.com/img/51af/2804/738f9d761296c31066eaec7e4d127577?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=i4LkleLCOSVDsGxKLy~AqOft-pyGaLrS5bZMD6YWXkdg6KcA2HY2JC0LJrwkgvRvWgPtuGB0bG~dQobNksSgvPTAmJks8bPm8RlG0SRnb5AXQv4WYXsplACRp3fedoI6lv1gkrXjruikVa8Yqj5gt7c53EwIXHVSoAOYyXukC2TJBG6Y5WTJYYT9oPrKTn29iEj1SGDdibOwBhJZ3t7rjsBkAvDPN~T14otrjbcEoDhkzW6p-o78IAybRSRj4yhKXNFA5h3AVl5IHFD2XLl7caNtF68cDH8VQtqOL1WGF~39IUtsqCsDiB8K-bqIQT1bUFdQ5XEpg~cqvUGM2-P~tQ__);
+    width: 500px;
+    height: 500px;
+    border: 3px solid #F0F0F0;
+    background-size: cover;
+}
+.my_skills{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    font-size: 1em;
+    padding: 4px;
+}
+.my_skills_app{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.app{
+    height: 20px;
+    width: 70%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 60%, rgba(255,248,248,1) 40%);
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5em;
+}
